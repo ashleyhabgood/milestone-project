@@ -1,0 +1,122 @@
+/***** BASE STYLES *****/
+body {
+font-family: 'Open Sans', sans-serif;
+background-color: #000;
+}
+
+header, #about, #work, #skills {
+  height: 550px;
+}
+
+#contact {
+  height: 350px;
+}
+
+h2 {
+  font-family: 'Playfair Display', serif;
+  font-size: 28px;
+}
+
+h3 {
+  font-size: 24px;
+}
+
+p{
+  font-size: 18px;
+}
+
+
+/***** GRID *****/
+.full-width {
+    width: 1218px;
+    margin: 0 auto;
+  }
+
+.half-width {
+  width: 609px;
+  margin: 0 auto;
+  float: left;
+}
+
+.third-width {
+  width: 406px;
+  margin: 0 auto;
+  float: left;
+  text-align: center;
+}
+
+/***** HEADER *****/
+header {
+    background: url(../img/header-image.png);
+    background-size: cover;
+    padding-top: 20px;
+}
+
+#logo {
+  font-family:'Satisfy', cursive;
+  font-size: 42px;
+}
+
+#title {
+  font-family: 'Montserrat', sans-serif;
+  font-size:48px;
+  line-height: 150%;
+}
+
+/***** ABOUT *****/
+#about {
+  background-color: #e4dfdc;
+  padding-top: 20px;
+}
+
+#about img {
+  display: block;
+  margin: auto;
+  border-style: solid;
+  border-color: #fff;
+  border-width: 8px;
+}
+
+/***** SKILLS *****/
+#skills {
+  background-color: #fff;
+  padding-top: 20px;
+}
+
+
+#skills img {
+  display: block;
+  margin: auto;
+}
+
+/***** WORK *****/
+#work {
+  background-color: #e4dfdc;
+  padding-top: 20px;
+}
+
+/***** CONTACT *****/
+#contact {
+  background-color: #fff;
+  padding-top: 20px;
+}
+
+#contact-info {
+  font-size:18px;
+  list-style: none;
+  line-height: 175%;
+  text-align: left;
+}
+
+#social-links ul {
+list-style: none;
+}
+
+#social-links li {
+  display: inline-block;
+  padding: 30px;
+}
+
+#social-links {
+  float: right;
+}
